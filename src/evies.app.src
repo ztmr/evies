@@ -1,0 +1,12 @@
+{application, evies,
+ [
+  {description, "VAT Information Exchange System API for Erlang"},
+  {vsn, "semver"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  esoap
+                 ]},
+  {env, []}
+ ]}.
